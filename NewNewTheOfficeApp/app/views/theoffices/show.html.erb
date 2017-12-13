@@ -1,0 +1,8 @@
+<h1>quote: <%= @theoffice.quote%></h1>
+<h1>person: <%= @theoffice.person%></h1>
+<h1>season: <%= @theoffice.season%></h1>
+<h1>episode: <%= @theoffice.episode%></h1>
+
+<%= form_for @theoffice, html: {method: 'delete'} do |f| %>
+	<%= f.submit "Delete" %>
+<% end %>

@@ -1,0 +1,2 @@
+class Theoffice < ApplicationRecord
+end

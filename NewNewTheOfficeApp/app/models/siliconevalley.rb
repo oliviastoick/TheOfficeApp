@@ -1,0 +1,2 @@
+class Siliconevalley < ApplicationRecord
+end

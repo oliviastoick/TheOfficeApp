@@ -1,0 +1,8 @@
+<h1>quote: <%= @siliconevalley.quote%></h1>
+<h1>person: <%= @siliconevalley.person%></h1>
+<h1>season: <%= @siliconevalley.season%></h1>
+<h1>episode: <%= @siliconevalley.episode%></h1>
+
+<%= form_for @siliconevalley, html: {method: 'delete'} do |f| %>
+	<%= f.submit "Delete" %>
+<% end %>
